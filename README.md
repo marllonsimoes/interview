@@ -1,8 +1,8 @@
 Hi!
 
-This is a simple project that uses some functionality of spring framework.
+1 - This is a simple project that uses some functionality of spring framework.
 
-There is five packages in this projects, as it be:
+2 - There is five packages in this projects, as it be:
 - main pakage (br.com.interview): has the main class of the app. Starts the servlet when app will respond.
 - config: where is defined the configuration of the app. This project doesn't use xml configuration and almost entire configuration was did through java annotations
 	- RestConfig: configures the web part of the application.
@@ -46,6 +46,10 @@ endpoint: http://localhost:8080/interview-restapi-project/rest/{id}
 method: DELETE
 sample data: none 
 
+3 - to puyt this application running follow this steps:
+3.1 - compile this application with maven like: mvn clean install
+There is no need to inform any profile because is was not configured.
+3.2 - install this application in your java web server or application server.
 
-
-
+4 - this application uses hsql database but it is embbeded in the application. No further configuration is needed.
+ 
